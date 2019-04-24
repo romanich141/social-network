@@ -8,10 +8,7 @@ a {
   display: block;
   text-decoration: none;
 }
-img {
-  max-width: 80px;
-  width: 100%;
-}
+
 .app-wrapper {
   width: 100%;
   max-width: 1400px;
@@ -24,7 +21,7 @@ img {
     'header header'
     'aside main'
     'footer footer'
-  ;
+  ;   
   grid-gap: 10px;
 }
 .header,
@@ -34,30 +31,6 @@ img {
   border:1px solid lightslategray;
   border-radius: 12px;
 }
-.header {
-  grid-area: header;
-  background-color: greenyellow;
-}
-.bg {
-  height: 200px;
-  background-image: url('https://www.my-itspecialist.com/wp-content/uploads/2018/09/main1.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.navbar-list {
-  padding-left: 0;
-}
-.aside {
-  grid-area: aside;
-  padding: 10px;
-  background-color: lightcoral;
-}
-.main {
-  grid-area: main;
-  background-color: lightblue;
-}
-.footer {
-  grid-area: footer;
-  background-color: lightgrey;
-}
+
+
+

@@ -1,0 +1,18 @@
+.my-post {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+                        'logo single-post';
+    grid-gap: 10px;
+    margin: 10px 0;
+    border:1px solid #ffffff;
+}
+.my-post__logo {
+    grid-area: logo;
+    max-width: 70px;
+    width: 100%;
+}
+.single-post {
+    grid-area: single-post;
+
+}

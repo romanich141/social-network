@@ -1,0 +1,16 @@
+h1,
+h2 {
+    text-align: center;
+}
+.main {
+    grid-area: main;
+    background-color: lightblue;
+}
+.bg {
+    height: 200px;
+    background-image: url('https://www.my-itspecialist.com/wp-content/uploads/2018/09/main1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+    

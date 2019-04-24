@@ -1,0 +1,31 @@
+.my-posts {
+    width: 100%;
+    max-width: 768px;
+    margin: 10px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:minmax(60px, 100px) 6fr;
+    grid-template-areas: 
+        'logo message'
+        'logo buttons'
+    ;
+    grid-gap: 5px;
+}
+.my-posts__logo {
+    grid-area: logo;
+    max-width: 100px;
+    width: 100%;
+}
+.my-posts__message {
+    grid-area: message;
+    resize: none;
+}
+.my-post__buttons {
+    display: flex;
+    margin-left: auto;
+}
+.button-add,
+.button-del {
+    grid-area: buttons;
+    text-transform: uppercase;
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import Header from './components/Header/Header';
+import Aside from './components/Aside/Aside';
+import Profile from './components/Profile/Profile';
+import Footer from './components/Footer/Footer';
 import './App.css';
-import Header from './components/Header';
-import Aside from './components/Aside';
-import Profile from './components/Profile';
-import Footer from './components/Footer';
 
 
 const App = () => {
@@ -18,5 +18,8 @@ const App = () => {
     );
 
 }
+
+
+
 
 export default App;
